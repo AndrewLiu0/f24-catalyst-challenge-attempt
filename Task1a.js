@@ -22,6 +22,10 @@ const todoList = [];
  * 
  */
 function addAndPrintTodos() {
+    todoList.push("Apply to y/cs!", "Pick out my classes", "Have dinner with my suite");
+    for (let i = 0 ;  i < todoList.length; i++){
+        console.log(todoList[i]);
+    }
     // YOUR CODE HERE
 }
 
